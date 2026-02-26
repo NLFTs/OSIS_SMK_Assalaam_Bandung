@@ -16,7 +16,7 @@ hero:
       size: xl
       color: neutral
       variant: subtle
-      to: /contact
+      to: /
 sections:
   - title: Dipercaya dan Didukung Langsung oleh Sekolah
     description: OSIS SMK Assalaam bekerja sama erat dengan manajemen sekolah untuk memastikan setiap aspirasi siswa didengar dan setiap kegiatan memberikan nilai positif bagi seluruh warga sekolah.
