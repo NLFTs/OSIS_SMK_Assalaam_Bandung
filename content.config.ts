@@ -36,7 +36,12 @@ export const collections = {
   index: defineCollection({
     source: '0.index.yml',
     type: 'page',
-    schema: z.object({
+    schema: createBaseSchema().extend({
+      seo: z.object({
+        title: z.string().optional(),
+        description: z.string().optional()
+      }).optional(),
+      navigation: z.union([z.boolean(), z.object({ title: z.string() })]).optional(),
       hero: z.object(({
         links: z.array(createLinkSchema())
       })),

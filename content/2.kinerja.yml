@@ -1,82 +1,72 @@
-title: A plan for every need
-description: Our plans are designed to meet the requirements of both beginners and players. Get the right plan that suits you.
+title: Kinerja dan Capaian OSIS
+description: Kami berkomitmen untuk transparansi dan akuntabilitas dalam setiap program kerja yang dijalankan untuk kemajuan SMK Assalaam.
 seo:
-  title: Pricing
-  description: Choose the plan that's right for you.
-navigation.icon: i-lucide-credit-card
+  title: Kinerja OSIS SMK Assalaam
+  description: Laporan kinerja dan capaian program kerja OSIS SMK Assalaam Bandung.
+navigation.icon: i-lucide-trending-up
 plans:
-  - title: Basic
-    description: A basic plan for individuals.
+  - title: Program Rutin
+    description: Kegiatan harian dan mingguan yang menjaga stabilitas organisasi.
     price:
-      month: $9.9
-      year: $99.9
+      month: '100%'
+      year: 'Lancar'
     button:
-      label: Get Started
+      label: Lihat Detail
       color: neutral
       variant: subtle
     features:
-      - 1 GB Storage
-      - 1 Email Account
-      - 1 Domain
-      - 1 Website
-      - 1 Database
-      - 1 SSL Certificate
-      - 1 Support Ticket
-  - title: Standard
-    description: A standard plan for small teams.
+      - Rapat Mingguan
+      - Kebersihan Lingkungan
+      - Kedisiplinan Siswa
+      - Dokumentasi Kegiatan
+      - Laporan Bulanan
+  - title: Event Besar
+    description: Program unggulan dengan dampak luas bagi seluruh siswa.
     price:
-      month: $19.9
-      year: $199.9
+      month: '95%'
+      year: 'Sukses'
     highlight: true
     scale: true
     button:
-      label: Get Started
+      label: Lihat Dokumentasi
     features:
-      - 10 GB Storage
-      - 10 Email Accounts
-      - 10 Domains
-      - 10 Websites
-      - 10 Databases
-      - 10 SSL Certificates
-      - 10 Support Tickets
-  - title: Premium
-    description: A premium plan for large teams.
+      - LDKO Tahunan
+      - Class Meeting
+      - Pensi Kreatif
+      - Bakti Sosial
+      - Kunjungan Industri
+  - title: Pengembangan
+    description: Inovasi dan riset untuk kemajuan organisasi di masa depan.
     price:
-      month: $29.9
-      year: $299.9
+      month: '80%'
+      year: 'Progres'
     button:
-      label: Get Started
+      label: Ikuti Perkembangan
       color: neutral
       variant: subtle
     features:
-      - 100 GB Storage
-      - 100 Email Accounts
-      - 100 Domains
-      - 100 Websites
-      - 100 Databases
-      - 100 SSL Certificates
-      - 100 Support Tickets
+      - Pelatihan Digital
+      - Kerjasama Eksternal
+      - Studi Banding
+      - Kaderisasi Pemimpin
+      - Inovasi Program
 logos:
-  title: Trusted by the world's best
+  title: Didukung Oleh Mitra Strategis
   icons:
-    - i-simple-icons-amazonaws
-    - i-simple-icons-heroku
-    - i-simple-icons-netlify
+    - i-simple-icons-nuxtdotjs
+    - i-simple-icons-tailwindcss
+    - i-simple-icons-github
     - i-simple-icons-vercel
-    - i-simple-icons-cloudflare
+    - i-simple-icons-visualstudiocode
 faq:
-  title: Frequently asked questions
-  description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.
+  title: Pertanyaan Seputar Kinerja OSIS
+  description: Informasi lebih lanjut mengenai bagaimana kami mengelola program dan mempertanggungjawabkan setiap kegiatan.
   items:
-    - label: Is this a secure service?
-      content: Qui sunt nostrud aliquip reprehenderit enim proident veniam magna aliquip velit occaecat eiusmod nisi deserunt sunt.
-    - label: How can I cancel my subscription?
-      content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
-    - label: How does the free trial work?
-      content: Quis officia commodo magna eu qui aliquip duis.
-    - label: Can I switch plans later?
-      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
-    - label: Do you offer refunds?
-      content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
-    - label: Do you offer support?
-      content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
+    - label: Bagaimana cara melihat laporan keuangan OSIS?
+      content: Laporan keuangan dipublikasikan secara transparan setiap akhir semester melalui papan pengumuman sekolah dan rapat pleno.
+    - label: Siapa yang mengevaluasi kinerja OSIS?
+      content: Kinerja kami dievaluasi langsung oleh Pembina OSIS dan Wakil Kepala Sekolah Bidang Kesiswaan.
+    - label: Apakah siswa bisa memberikan kritik dan saran?
+      content: Tentu, kami menyediakan kotak saran di depan ruang OSIS dan formulir aspirasi online.
+    - label: Apa itu LDKO?
+      content: Latihan Dasar Kepemimpinan Organisasi adalah program wajib bagi calon pengurus untuk melatih karakter dan kemampuan manajerial.
