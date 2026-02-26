@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import type { ContentNavigationItem } from '@nuxt/content'
+
 const route = useRoute()
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
 const items = computed(() => [{
   label: 'Docs',
@@ -18,6 +21,8 @@ const items = computed(() => [{
   to: '/sejarah',
   active: route.path.startsWith('/sejarah')
 }])
+
+const isDocs = computed(() => route.path.startsWith('/docs'))
 </script>
 
 <template>
@@ -35,33 +40,19 @@ const items = computed(() => [{
     />
 
     <template #right>
+      <UContentSearchButton />
+
       <UColorModeButton />
 
       <UButton
-        icon="i-lucide-log-in"
+        icon="i-simple-icons-github"
         color="neutral"
         variant="ghost"
-        to="/login"
-        class="lg:hidden"
-      />
-
-      <UButton
-        label="Sign in"
-        color="neutral"
-        variant="outline"
-        to="/login"
-        class="hidden lg:inline-flex"
-      />
-
-      <UButton
-        label="Sign up"
-        color="neutral"
-        trailing-icon="i-lucide-arrow-right"
-        class="hidden lg:inline-flex"
-        to="/signup"
+        to="https://github.com/DavinGM/OSIS_SMK_Assalaam_Bandung"
+        target="_blank"
+        aria-label="GitHub"
       />
     </template>
-
 
     <template #body>
       <UNavigationMenu
@@ -70,22 +61,14 @@ const items = computed(() => [{
         class="-mx-2.5"
       />
 
-      <USeparator class="my-6" />
+      <template v-if="isDocs">
+        <USeparator class="my-6" />
 
-      <UButton
-        label="Sign in"
-        color="neutral"
-        variant="subtle"
-        to="/login"
-        block
-        class="mb-3"
-      />
-      <UButton
-        label="Sign up"
-        color="neutral"
-        to="/signup"
-        block
-      />
+        <UContentNavigation
+          :navigation="navigation"
+          highlight
+        />
+      </template>
     </template>
   </UHeader>
 </template>
